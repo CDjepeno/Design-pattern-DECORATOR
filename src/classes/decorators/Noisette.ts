@@ -1,21 +1,19 @@
 import { DecoratorIngredient } from "../../abstract/DecoratorIngredient";
-import { Drink } from '../../abstract/Drink';
+import { Drink } from "../../abstract/Drink";
 
-export class Noisette extends DecoratorIngredient  {
-
-  drink: Drink
+export class Noisette extends DecoratorIngredient {
+  drink: Drink;
 
   constructor(d: Drink) {
-    super()
-    this.drink = d 
+    super();
+    this.drink = d;
   }
 
   getDescription() {
-    return `${this.drink.getDescription()}, noisette`
+    return `${this.drink.getDescription()}, noisette`;
   }
 
   cost() {
-    return this.drink.cost() + .35
+    return this.drink.cost() + 0.35;
   }
-
 }

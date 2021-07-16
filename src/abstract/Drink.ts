@@ -1,13 +1,13 @@
 export abstract class Drink {
-  description: string = "boisson inconu"
-  size: string = 'S'
+  description: string = "boisson inconu";
+  size: string = "S";
 
   getDescription() {
-    return this.description
-  } 
+    return this.description;
+  }
 
   getSize() {
-    this.size
+    this.size;
   }
 
   abstract cost(): number;
