@@ -6,4 +6,8 @@ export class Expresso extends Drink  {
     super()
     this.description = drink
   }
+
+  cost() {
+    return 1
+  }
 }
