@@ -2,7 +2,7 @@
 Design_pattern-DECORATOR.
 </h1>
 
-![Decorator](https://user-images.githubusercontent.com/43074465/125885731-83cdacf6-199e-4e76-aa7b-4a56f99df5b5.jpg)
+![Decorator](https://user-images.githubusercontent.com/43074465/127931564-f001d559-9f5b-4cca-a8f6-68bf8a7c9115.jpg)
 
 # Getting Started
 ```bash
