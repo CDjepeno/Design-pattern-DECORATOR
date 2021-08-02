@@ -9,7 +9,5 @@ Design_pattern-DECORATOR.
 $ git clone https://github.com/CDjepeno/Design_pattern-DECORATOR.git
 $ cd Design_pattern-DECORATOR
 $ npm install
-$ npm run build 
-$ cd /public/classes/RunStation.js 
-$ node RunStation.js
+$ npm run test
 ```
