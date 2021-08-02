@@ -10,10 +10,10 @@ export class Chocolat extends DecoratorIngredient {
   }
 
   getDescription() {
-    return `${this.drink.getDescription()}, chocolate`;
+    return `${this.drink.getDescription()}, chocolat`;
   }
 
   cost() {
-    return this.drink.cost() + 0.3;
+    return this.drink.cost() + 0.30;
   }
 }

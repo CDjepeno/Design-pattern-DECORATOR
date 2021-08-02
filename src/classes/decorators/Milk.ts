@@ -10,10 +10,10 @@ export class Milk extends DecoratorIngredient {
   }
 
   cost() {
-    return this.drink.cost() + 0.4;
+    return this.drink.cost() + 0.40;
   }
 
   getDescription() {
-    return `${this.drink.getDescription()}, milk`;
+    return `${this.drink.getDescription()}, lait`;
   }
 }
